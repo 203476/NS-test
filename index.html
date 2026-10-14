@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grade 4 Natural Sciences — Planet Earth & Beyond</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Grade 4 Natural Sciences Test</h1>
+      <p class="intro">Topic: Planet Earth and Beyond — The Solar System</p>
+      <div class="meta">
+        Name: <input id="studentName" type="text" placeholder="Student name" />
+        Date: <input id="testDate" type="date" />
+      </div>
+    </header>
+
+    <form id="testForm">
+      <ol id="questions">
+        <!-- Questions 1 to 100 -->
+      </ol>
+
+      <div class="controls">
+        <button type="button" id="submitBtn">Submit & Mark</button>
+        <button type="button" id="resetBtn">Reset</button>
+        <button type="button" id="csvBtn">Download CSV Results</button>
+      </div>
+    </form>
+
+    <section id="results" class="results" hidden>
+      <h2>Results</h2>
+      <div id="scoreSummary"></div>
+      <div id="questionFeedback"></div>
+    </section>
+
+    <footer>
+      <small>Auto-marking Grade 4 Natural Sciences test — created for classroom use.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
